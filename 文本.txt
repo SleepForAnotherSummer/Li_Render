@@ -1,0 +1,42 @@
+
+//Color Renderer::RenderPixel(int x, int y)
+//{
+//	// 实现
+//	Color color;
+//	color.r = float(x) / 100;
+//	color.g = float(y) / 74;
+//	color.b = float(x + y) / 39;
+//	return color;
+//}
+
+//void Renderer::my_windows(int& width, int& height)
+//{
+//	// 实现
+//	std::cout << "请输入你的屏幕宽度" << std::endl;
+//	std::cin >> width;
+//	std::cout << "请输入你的屏幕高度" << std::endl;
+//	std::cin >> height;
+//	
+//}
+
+
+
+	//for (int y = 0;y < height;y++)
+	//{
+	//	for (int x = 0; x < width; x++)
+	//	{
+	//		//uint32_t a = 9;
+	//		//Color color = RenderPixel(x, y);
+	//		//uint32_t r = glm::clamp((uint32_t)std::round(color.r * 255.0f), 0u, 255u);
+	//		//uint32_t g = glm::clamp((uint32_t)std::round(color.g * 255.0f), 0u, 255u);
+	//		//uint32_t b = glm::clamp((uint32_t)std::round(color.b * 255.0f), 0u, 255u);
+
+	//		uint32_t r = 0;
+	//		uint32_t g = 0;
+	//		uint32_t b = 0;
+
+	//		buffer[y * width + x] = (r << 16) | (g << 8) | b;
+	//	}
+	//}
+
+	//present 方法，让窗口显示出来，使用mfb_update_ex函数来更新窗口的内容
